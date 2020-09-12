@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <form action="/" method="GET" id="form">
+    <div>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+      <label for="password">password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <hr>
+  <div id="messages"></div>
+</body>
+
+</html>
